@@ -101,7 +101,7 @@ export default function Testimonials() {
             { value: "98%", label: "Client Satisfaction" },
             { value: "4.9★", label: "Average Rating" },
             { value: "500+", label: "5-Star Reviews" },
-            { value: "10yr", label: "Trusted Since" },
+            { value: "10+", label: "Years Experience" },
           ].map((stat) => (
             <div key={stat.label} className="bg-white/5 rounded-xl py-5 px-4 border border-white/10">
               <p className="text-2xl font-extrabold text-white">{stat.value}</p>
